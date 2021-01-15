@@ -62,6 +62,7 @@ namespace UTTT.Ejemplo.Persona
             {
                 this.showMessage("Ha ocurrido un problema al cargar la página");
                 this.Response.Redirect("~/PersonaPrincipal.aspx", false);
+                this.showMessageException(_e.Message);
             }
         }
 
@@ -81,6 +82,7 @@ namespace UTTT.Ejemplo.Persona
             {
                 this.showMessage("Ha ocurrido un problema al cargar la página");
                 this.Response.Redirect("~/PersonaPrincipal.aspx", false);
+                this.showMessageException(_e.Message);
             }
         }
 
@@ -103,6 +105,7 @@ namespace UTTT.Ejemplo.Persona
             catch (Exception _e)
             {
                 this.showMessage("Ha ocurrido un problema al seleccionar");
+                this.showMessageException(_e.Message);
             }
         }
 
@@ -122,6 +125,7 @@ namespace UTTT.Ejemplo.Persona
             catch (Exception _e)
             {
                 this.showMessage("Ha ocurrido un problema al agregar");
+                this.showMessageException(_e.Message);
             }
         }
 
