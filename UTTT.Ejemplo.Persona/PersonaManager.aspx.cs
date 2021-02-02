@@ -70,7 +70,8 @@ namespace UTTT.Ejemplo.Persona
                     if (this.idPersona == 0)
                     {
                         this.lblAccion.Text = "Agregar";
-                        DateTime tiempo = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+                        //DateTime tiempo = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+                        DateTime tiempo = new DateTime(2003, 01, 01);
                         this.dteCalendar.TodaysDate = tiempo;
                         this.dteCalendar.SelectedDate = tiempo;
                     }
@@ -150,14 +151,14 @@ namespace UTTT.Ejemplo.Persona
                             this.lblMensaje.Visible = true;
                             return;
                         }
-                        //Validacion SQL
+                        //Validacion HTML
                         if(!this.validaHTML(ref mensaje))
                         {
                             this.lblMensaje.Text = mensaje;
                             this.lblMensaje.Visible = true;
                             return;
                         }
-                        //Validacion HTML
+                        //Validacion SQL
                         if (!this.validaSql(ref mensaje))
 
                         {
@@ -189,21 +190,21 @@ namespace UTTT.Ejemplo.Persona
                         persona.codigoPostal = this.txtCodigoPostal.Text.Trim();
                         persona.rfc = this.txtRFC.Text.Trim();
                         String mensaje = String.Empty;
-                        //Validacion de datos correctos
+                        ////Validacion de datos correctos
                         if (!this.validacion(persona, ref mensaje))
                         {
                             this.lblMensaje.Text = mensaje;
                             this.lblMensaje.Visible = true;
                             return;
                         }
-                        //Validacion SQL
+                        //Validacion HTML
                         if (!this.validaHTML(ref mensaje))
                         {
                             this.lblMensaje.Text = mensaje;
                             this.lblMensaje.Visible = true;
                             return;
                         }
-                        //Validacion HTML
+                        //Validacion SQL
                         if (!this.validaSql(ref mensaje))
 
                         {
@@ -290,6 +291,7 @@ namespace UTTT.Ejemplo.Persona
                 _mensaje = "La clave unica esta vacia";
                 return false;
             }
+
             if (_persona.strClaveUnica.Length != 3)
             {
                 _mensaje = "La clave unica solo acepta 3 valores";
@@ -340,7 +342,11 @@ namespace UTTT.Ejemplo.Persona
                 _mensaje = "RFC esta vacio, revisar campo";
                 return false;
             }
-
+            if (_persona.rfc.Length !=13)
+            {
+                _mensaje = "RFC solo acepta 13 valores, revisar campo";
+                return false;
+            }
             return true;
 
         }
@@ -446,25 +452,6 @@ namespace UTTT.Ejemplo.Persona
             }
             _control.Items.FindByText(_value).Selected = true;
         }
-
-
-
-        public void mayor(DateTime fechaNacimiento)
-        {
-            //DateTime fechaNacimiento = this.dteCalendar.SelectedDate.Date;
-            //this.showMessage("La fecha de nacimiento es " + fechaNacimiento);
-            DateTime fechaHoy = DateTime.Today;
-            int edad = fechaHoy.Year - fechaNacimiento.Year;
-            if (fechaHoy < fechaNacimiento.AddYears(edad)) edad--;
-
-            if (edad < 18)
-            {
-                this.showMessage("Eres menor de edad no puedes registrarte");
-            }
-
-            //DateTime fechaNacimiento = this.dteCalendar.SelectedDate.Date;
-            //mayor(fechaNacimiento);
-        }
         #endregion
 
         public void EnviarCorreo(string correoDestino, string asunto, string mensajeCorreo)
@@ -474,7 +461,6 @@ namespace UTTT.Ejemplo.Persona
             try
             {
                 SmtpMail smtpMail = new SmtpMail("TryIt");
-
                 smtpMail.From = "18300143@uttt.edu.mx";
                 smtpMail.To = correoDestino;
                 smtpMail.Subject = asunto;
@@ -499,5 +485,6 @@ namespace UTTT.Ejemplo.Persona
             }
         }
 
+        
     }
 }
