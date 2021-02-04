@@ -48,6 +48,10 @@
         
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtClaveUnica" ErrorMessage="Solo se aceptan numeros" ForeColor="Blue" ValidationExpression="([0-9]|-)*"></asp:RegularExpressionValidator>
         
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" ControlToValidate="txtClaveUnica" ErrorMessage="Solo aceptamos 3 caracteres" ValidationExpression="\d{3}"></asp:RegularExpressionValidator>
+        
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtClaveUnica" ErrorMessage="Aceptamos un rango de 100 a 999" MaximumValue="999" MinimumValue="100"></asp:RangeValidator>
+        
             <br />
         
         </div>
@@ -60,6 +64,8 @@
         
             <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtNombre" ErrorMessage="Debe ingresar un Nombre"></asp:RequiredFieldValidator>
         
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" ControlToValidate="txtNombre" ErrorMessage="Solo se acepta letras y un rango de 3 a 15 caracteres" ForeColor="Blue" ValidationExpression="^[a-z A-Z]{3,15}"></asp:RegularExpressionValidator>
+        
             <br />
         
         </div>
@@ -69,7 +75,7 @@
                 ID="txtAPaterno"  MinLength="3" MaxLength="15" runat="server" Width="249px" ViewStateMode="Disabled" BackColor="#FFCCFF" BorderColor="#003300" BorderStyle="Dotted"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtAPaterno" ErrorMessage="Debe ingresar un Apellido"></asp:RequiredFieldValidator>
              
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtAPaterno" ErrorMessage="No se permite el uso de espacios" ForeColor="Blue" ValidationExpression="^[a-zA-Z]*$"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtAPaterno" ErrorMessage="No se permite el uso de espacios y solo aceptamos letras" ForeColor="Blue" ValidationExpression="^[a-zA-Z]*$"></asp:RegularExpressionValidator>
              
             <br />
         </div>
@@ -83,7 +89,7 @@
         
             <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtAMaterno" ErrorMessage="Debe ingresar un Apellido"></asp:RequiredFieldValidator>
         
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtAMaterno" ErrorMessage="No se permite el uso de espacios" ForeColor="Blue" ValidationExpression="^[a-zA-Z]*$"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtAMaterno" ErrorMessage="No se permite el uso de espacios y solo aceptamos letras" ForeColor="Blue" ValidationExpression="^[a-zA-Z]*$"></asp:RegularExpressionValidator>
         
             <br />
             <div>

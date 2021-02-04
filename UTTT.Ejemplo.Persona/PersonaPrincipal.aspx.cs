@@ -203,5 +203,10 @@ namespace UTTT.Ejemplo.Persona
         }
 
         #endregion
+
+        protected void dgvPersonas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
