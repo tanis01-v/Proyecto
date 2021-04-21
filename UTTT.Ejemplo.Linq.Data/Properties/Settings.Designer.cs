@@ -23,11 +23,32 @@ namespace UTTT.Ejemplo.Linq.Data.Properties {
             }
         }
         
-       // [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        //[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        //[global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        // [global::System.Configuration.DefaultSettingValueAttribute("data source=-TANIS-;\n            initial catalog=Manual;\n            Integrated S" +
-        //    "ecurity=SSPI;\n            persist security info=True;")]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PersonaTanis.mssql.somee.com;Initial Catalog=PersonaTanis;User ID=tan" +
+            "is_SQLLogin_1;Password=gotq8nu9vz")]
+        public string PersonaTanisConnectionString {
+            get {
+                return ((string)(this["PersonaTanisConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=-TANIS-;Initial Catalog=Manual;Integrated Security=True")]
+        public string ManualConnectionString {
+            get {
+                return ((string)(this["ManualConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("data source=-TANIS-;\n            initial catalog=Manual;\n            Integrated S" +
+            "ecurity=SSPI;\n            persist security info=True;")]
         public string PersonaConnectionString {
             get {
                 return ((string)(this["PersonaConnectionString"]));
@@ -37,11 +58,11 @@ namespace UTTT.Ejemplo.Linq.Data.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PersonaTanis.mssql.somee.com;Initial Catalog=PersonaTanis;User ID=tan" +
-            "is_SQLLogin_1;Password=gotq8nu9vz")]
-        public string PersonaTanisConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PersonaTanis.mssql.somee.com;Initial Catalog=PersonaTanis;Persist Sec" +
+            "urity Info=True;User ID=tanis_SQLLogin_1;Password=gotq8nu9vz")]
+        public string PersonaTanisConnectionString1 {
             get {
-                return ((string)(this["PersonaTanisConnectionString"]));
+                return ((string)(this["PersonaTanisConnectionString1"]));
             }
         }
     }

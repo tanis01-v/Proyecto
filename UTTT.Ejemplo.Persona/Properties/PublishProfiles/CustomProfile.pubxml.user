@@ -10,35 +10,377 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <_PublishTargetUrl>ftp://Tania.somee.com/www.Tania.somee.com</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="assets/css/style.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/apple-touch-icon.png">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/bg.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/me.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-1.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-2.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-3.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-4.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-5.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-6.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-7.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-8.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-9.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-details-1.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-details-2.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/portfolio-details-3.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/testimonials/testimonials-1.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/testimonials/testimonials-2.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/testimonials/testimonials-3.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/testimonials/testimonials-4.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/img/testimonials/testimonials-5.jpg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap-icons/bootstrap-icons.json">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap-icons/index.html">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.rtl.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.rtl.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.rtl.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.rtl.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.esm.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.esm.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.esm.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.esm.min.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/css/animations.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/css/boxicons.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/css/boxicons.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/css/transformations.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/fonts/boxicons.eot">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/fonts/boxicons.svg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/fonts/boxicons.ttf">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/fonts/boxicons.woff">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/boxicons/fonts/boxicons.woff2">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/glightbox/css/glightbox.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/glightbox/css/glightbox.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/glightbox/js/glightbox.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/glightbox/js/glightbox.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/isotope-layout/isotope.pkgd.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/isotope-layout/isotope.pkgd.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/php-email-form/validate.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/purecounter/purecounter.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.eot">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.less">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.svg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.symbol.svg">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.ttf">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.woff">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/remixicon/remixicon.woff2">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/swiper/swiper-bundle.min.css">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/swiper/swiper-bundle.min.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="assets/vendor/waypoints/noframework.waypoints.js">
+      <publishTime>04/11/2021 20:06:24</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
     <File Include="bin/EASendMail.dll">
-      <publishTime>12/17/2020 07:07:36</publishTime>
+      <publishTime>02/11/2021 18:57:59</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Linq.Data.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/20/2021 14:34:54</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Linq.Data.dll.config">
-      <publishTime>01/10/2021 17:04:01</publishTime>
+      <publishTime>02/25/2021 16:17:24</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Linq.Data.pdb">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/20/2021 14:34:54</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Control.dll">
-      <publishTime>01/26/2021 18:55:30</publishTime>
+      <publishTime>04/20/2021 14:34:52</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Control.pdb">
-      <publishTime>01/26/2021 18:55:30</publishTime>
+      <publishTime>04/20/2021 14:34:52</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Data.dll">
-      <publishTime>01/26/2021 14:50:34</publishTime>
+      <publishTime>04/20/2021 14:34:51</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Data.pdb">
-      <publishTime>01/26/2021 14:50:34</publishTime>
+      <publishTime>04/20/2021 14:34:51</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.dll">
-      <publishTime>02/03/2021 14:17:50</publishTime>
+      <publishTime>04/21/2021 13:38:02</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.pdb">
-      <publishTime>02/03/2021 14:17:50</publishTime>
+      <publishTime>04/21/2021 13:38:02</publishTime>
+    </File>
+    <File Include="Calendar.aspx">
+      <publishTime>03/04/2021 21:03:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>02/11/2021 19:00:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>02/11/2021 19:00:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>02/11/2021 19:00:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>02/11/2021 19:00:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>02/11/2021 19:00:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>02/11/2021 19:00:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>02/11/2021 19:00:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>02/11/2021 19:00:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/11/2021 19:00:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/11/2021 19:00:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/11/2021 19:00:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/11/2021 19:00:01</publishTime>
     </File>
     <File Include="controlformato.css">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -55,8 +397,38 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="DireccionManager.aspx">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
+    <File Include="EnviarRecu.aspx">
+      <publishTime>04/20/2021 20:10:26</publishTime>
+    </File>
+    <File Include="EnviarRecuperacion.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
     <File Include="Error.aspx">
-      <publishTime>01/31/2021 12:28:56</publishTime>
+      <publishTime>03/09/2021 13:38:51</publishTime>
+    </File>
+    <File Include="error/index.html">
+      <publishTime>03/09/2021 13:34:41</publishTime>
+    </File>
+    <File Include="error/readme.txt">
+      <publishTime>03/09/2021 13:34:41</publishTime>
+    </File>
+    <File Include="error/scripts.js">
+      <publishTime>03/09/2021 13:34:41</publishTime>
+    </File>
+    <File Include="error/style.css">
+      <publishTime>03/09/2021 13:34:41</publishTime>
+    </File>
+    <File Include="forms/contact.php">
+      <publishTime>04/11/2021 19:55:28</publishTime>
+    </File>
+    <File Include="forms/Readme.txt">
+      <publishTime>04/11/2021 19:55:28</publishTime>
+    </File>
+    <File Include="Images/cal.png">
+      <publishTime>02/14/2021 21:52:20</publishTime>
+    </File>
+    <File Include="Images/calendario.jpg">
+      <publishTime>02/14/2021 21:40:56</publishTime>
     </File>
     <File Include="Images/delrecord_16x16.png">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -70,20 +442,452 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="Images/printrecord_16x16.png">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
+    <File Include="inicio.aspx">
+      <publishTime>04/20/2021 20:19:21</publishTime>
+    </File>
     <File Include="javaScripFile.js">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
     <File Include="javaScripPage.aspx">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
+    <File Include="libman.json">
+      <publishTime>02/18/2021 16:48:28</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/21/2021 13:33:19</publishTime>
+    </File>
+    <File Include="login/css/main.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/css/util.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/animated.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/core.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/icons.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/larger.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/list.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/path.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/less/variables.less">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Black.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-BlackItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Bold.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-BoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-ExtraBold.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-ExtraLight.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Italic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Light.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-LightItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Medium.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-MediumItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Regular.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-SemiBold.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-Thin.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/Montserrat-ThinItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/montserrat/OFL.txt">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Black.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-BlackItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Bold.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-BoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-ExtraBold.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-ExtraBoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-ExtraLight.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-ExtraLightItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Italic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Light.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-LightItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Medium.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-MediumItalic.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Regular.ttf">
+      <publishTime>04/11/2021 17:05:44</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-SemiBold.ttf">
+      <publishTime>04/11/2021 17:05:45</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-SemiBoldItalic.ttf">
+      <publishTime>04/11/2021 17:05:45</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-Thin.ttf">
+      <publishTime>04/11/2021 17:05:45</publishTime>
+    </File>
+    <File Include="login/fonts/poppins/Poppins-ThinItalic.ttf">
+      <publishTime>04/11/2021 17:05:45</publishTime>
+    </File>
+    <File Include="login/images/bg-01.jpg">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/images/icons/favicon.ico">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/js/main.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/animate/animate.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/animsition/css/animsition.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/animsition/css/animsition.min.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/animsition/js/animsition.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/animsition/js/animsition.min.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/js/popper.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/js/popper.min.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/bootstrap/js/tooltip.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/countdowntime/countdowntime.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/css-hamburgers/hamburgers.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/css-hamburgers/hamburgers.min.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/daterangepicker/daterangepicker.css">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/daterangepicker/daterangepicker.js">
+      <publishTime>04/11/2021 17:05:42</publishTime>
+    </File>
+    <File Include="login/vendor/daterangepicker/moment.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/daterangepicker/moment.min.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/jquery/jquery-3.2.1.min.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/perfect-scrollbar/perfect-scrollbar.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/perfect-scrollbar/perfect-scrollbar.min.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/select2/select2.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/select2/select2.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/select2/select2.min.css">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
+    <File Include="login/vendor/select2/select2.min.js">
+      <publishTime>04/11/2021 17:05:43</publishTime>
+    </File>
     <File Include="paginaMaster.Master">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
     <File Include="PersonaManager.aspx">
-      <publishTime>02/03/2021 14:10:29</publishTime>
+      <publishTime>04/20/2021 19:32:12</publishTime>
     </File>
     <File Include="PersonaPrincipal.aspx">
+      <publishTime>04/20/2021 18:52:28</publishTime>
+    </File>
+    <File Include="Recuperar.aspx">
+      <publishTime>04/20/2021 20:09:32</publishTime>
+    </File>
+    <File Include="RecuperarContrasena.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="resources/css/Estilos.css">
+      <publishTime>02/10/2021 16:26:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>02/11/2021 19:00:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>02/11/2021 19:00:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>02/11/2021 19:00:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>02/11/2021 19:00:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/11/2021 19:00:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>02/11/2021 19:00:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/11/2021 18:59:59</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>02/11/2021 18:59:59</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>02/11/2021 18:59:59</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>02/11/2021 18:59:59</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>02/11/2021 18:59:58</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>02/11/2021 18:59:58</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>02/11/2021 18:59:58</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>02/11/2021 18:59:58</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>02/11/2021 18:59:58</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>02/11/2021 18:59:57</publishTime>
+    </File>
+    <File Include="Scripts/index.js.flow">
+      <publishTime>02/11/2021 18:59:57</publishTime>
     </File>
     <File Include="Scripts/jquery-1.4.1-vsdoc.js">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -124,11 +928,260 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
       <publishTime>01/13/2021 17:08:13</publishTime>
     </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>02/11/2021 18:59:57</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>02/11/2021 18:59:57</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>02/11/2021 18:59:57</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>02/11/2021 18:59:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>02/11/2021 18:59:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>02/11/2021 18:59:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>02/11/2021 18:59:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>02/11/2021 18:59:56</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>02/11/2021 18:59:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>02/11/2021 18:59:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>02/11/2021 18:59:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>02/11/2021 18:59:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>02/11/2021 18:59:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>02/11/2021 18:59:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>02/11/2021 18:59:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>02/11/2021 18:59:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>02/11/2021 18:59:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>02/11/2021 18:59:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>02/11/2021 18:59:49</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>02/11/2021 18:59:49</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>02/11/2021 18:59:49</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>02/11/2021 18:59:49</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>02/11/2021 18:59:49</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>02/11/2021 18:59:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>02/11/2021 18:59:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>02/11/2021 18:59:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.flow">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>02/11/2021 18:59:45</publishTime>
+    </File>
     <File Include="Scripts/validar.js">
       <publishTime>01/19/2021 16:09:26</publishTime>
     </File>
+    <File Include="UsuarioManager.aspx">
+      <publishTime>04/21/2021 13:32:48</publishTime>
+    </File>
+    <File Include="UsuarioPrincipal.aspx">
+      <publishTime>04/20/2021 18:52:19</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>02/03/2021 14:18:04</publishTime>
+      <publishTime>04/15/2021 23:15:48</publishTime>
     </File>
   </ItemGroup>
 </Project>

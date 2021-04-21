@@ -11,6 +11,7 @@ using System.Linq.Expressions;
 using System.Collections;
 using UTTT.Ejemplo.Persona.Control;
 using UTTT.Ejemplo.Persona.Control.Ctrl;
+using System.Windows.Forms;
 
 #endregion
 
@@ -28,6 +29,8 @@ namespace UTTT.Ejemplo.Persona
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["nombreUsuario"] == null)
+                Response.Redirect("login.aspx");
             try
             {
                 Response.Buffer = true;
@@ -43,6 +46,17 @@ namespace UTTT.Ejemplo.Persona
                     this.ddlSexo.DataValueField = "id";
                     this.ddlSexo.DataSource = lista;
                     this.ddlSexo.DataBind();
+
+                    List<CatEstadoCivil> listaEstadoCivil = dcTemp.GetTable<CatEstadoCivil>().ToList();
+                    CatEstadoCivil catTempEstadoCivil = new CatEstadoCivil();
+                    catTempEstadoCivil.id = -1;
+                    catTempEstadoCivil.strValor = "Todos";
+                    listaEstadoCivil.Insert(0, catTempEstadoCivil);
+                    this.ddlEstadoCivil.DataTextField = "strValor";
+                    this.ddlEstadoCivil.DataValueField = "id";
+                    this.ddlEstadoCivil.DataSource = listaEstadoCivil;
+                    this.ddlEstadoCivil.DataBind();
+
                 }
             }
             catch (Exception _e)
@@ -90,6 +104,7 @@ namespace UTTT.Ejemplo.Persona
                 DataContext dcConsulta = new DcGeneralDataContext();
                 bool nombreBool = false;
                 bool sexoBool = false;
+                bool estadoCivil = false;
                 if (!this.txtNombre.Text.Equals(String.Empty))
                 {
                     nombreBool = true;
@@ -98,13 +113,25 @@ namespace UTTT.Ejemplo.Persona
                 {
                     sexoBool = true;
                 }
+                if (this.ddlEstadoCivil.Text != "-1")
+                {
+                    estadoCivil = true;
+                }
 
-                Expression<Func<UTTT.Ejemplo.Linq.Data.Entity.Persona, bool>> 
+                Expression<Func<UTTT.Ejemplo.Linq.Data.Entity.Persona, bool>>
                     predicate =
                     (c =>
-                    ((sexoBool) ? c.idCatSexo == int.Parse(this.ddlSexo.Text) : true) &&             
+                    ((sexoBool) ? c.idCatSexo == int.Parse(this.ddlSexo.Text) : true) &&
+                    ((estadoCivil) ? c.idCatEstadoCivil == int.Parse(this.ddlEstadoCivil.Text) : true) &&
                     ((nombreBool) ? (((nombreBool) ? c.strNombre.Contains(this.txtNombre.Text.Trim()) : false)) : true)
                     );
+
+                //Expression<Func<UTTT.Ejemplo.Linq.Data.Entity.Persona, bool>> 
+                //    predicate =
+                //    (c =>
+                //    ((sexoBool) ? c.idCatSexo == int.Parse(this.ddlSexo.Text) : true) &&             
+                //    ((nombreBool) ? (((nombreBool) ? c.strNombre.Contains(this.txtNombre.Text.Trim()) : false)) : true)
+                //    );
 
                 predicate.Compile();
 
@@ -204,9 +231,43 @@ namespace UTTT.Ejemplo.Persona
 
         #endregion
 
+
+        protected void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+        }
+
         protected void dgvPersonas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Session.Abandon();
+                Response.Redirect("~/UsuarioPrincipal.aspx", false);
+            }
+            catch (Exception _e)
+            {
+                this.showMessage("Ha ocurrido un error inesperado");
+                this.showMessageException(_e.Message);
+            }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Response.Redirect("~/inicio.aspx", false);
+            }
+            catch (Exception _e)
+            {
+                this.showMessage("Ha ocurrido un error inesperado");
+                this.showMessageException(_e.Message);
+            }
+        }
+
+
     }
 }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PersonaTanis" Class="DcGeneralDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=PersonaTanis.mssql.somee.com;Initial Catalog=PersonaTanis;User ID=tanis_SQLLogin_1" SettingsObjectName="UTTT.Ejemplo.Linq.Data.Properties.Settings" SettingsPropertyName="PersonaTanisConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PersonaTanis.mssql.somee.com;Initial Catalog=PersonaTanis;Persist Security Info=True;User ID=tanis_SQLLogin_1" SettingsObjectName="UTTT.Ejemplo.Linq.Data.Properties.Settings" SettingsPropertyName="PersonaTanisConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.CatSexo" Member="CatSexo">
     <Type Name="CatSexo">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -18,6 +18,34 @@
       <Association Name="Persona_Direccion" Member="Persona" ThisKey="idPersona" OtherKey="id" Type="Persona" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.CatEstadoCivil" Member="CatEstadoCivil">
+    <Type Name="CatEstadoCivil">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="strValor" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="strDescripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CatEstadoCivil_Persona" Member="Persona" ThisKey="id" OtherKey="idCatEstadoCivil" Type="Persona" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuarioo" Member="Usuarioo">
+    <Type Name="Usuarioo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idPersona" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nombreUsuario" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="contrasena" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="idEstado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Estado_Usuarioo" Member="Estado" ThisKey="idEstado" OtherKey="id" Type="Estado" IsForeignKey="true" />
+      <Association Name="Persona_Usuarioo" Member="Persona" ThisKey="idPersona" OtherKey="id" Type="Persona" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Estado" Member="Estado">
+    <Type Name="Estado">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Estado_Usuarioo" Member="Usuarioo" ThisKey="id" OtherKey="idEstado" Type="Usuarioo" />
+    </Type>
+  </Table>
   <Table Name="dbo.Persona" Member="Persona">
     <Type Name="Persona">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -30,8 +58,11 @@
       <Column Name="correoElectronico" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="codigoPostal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="rfc" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idCatEstadoCivil" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="Persona_Direccion" Member="Direccion" ThisKey="id" OtherKey="idPersona" Type="Direccion" />
+      <Association Name="Persona_Usuarioo" Member="Usuarioo" ThisKey="id" OtherKey="idPersona" Type="Usuarioo" />
       <Association Name="CatSexo_Persona" Member="CatSexo" ThisKey="idCatSexo" OtherKey="id" Type="CatSexo" IsForeignKey="true" />
+      <Association Name="CatEstadoCivil_Persona" Member="CatEstadoCivil" ThisKey="idCatEstadoCivil" OtherKey="id" Type="CatEstadoCivil" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>
